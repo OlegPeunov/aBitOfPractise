@@ -1,0 +1,25 @@
+@media (max-width: 1024px){
+    .comments_line-height{
+        line-height: 64px;
+    }
+}
+
+
+
+@media (max-width: 768px){
+	.comments_line-height{
+		line-height: 40px;
+	}
+}
+
+
+
+@media (max-width: 375px){
+	.comments_line-height{
+        line-height: 35px;
+        
+	}
+}
+
+
+

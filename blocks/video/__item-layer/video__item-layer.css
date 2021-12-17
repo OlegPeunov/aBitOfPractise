@@ -1,0 +1,14 @@
+.video__item-layer{
+  background:rgba(0,0,0, .3);
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.video__item-layer:hover{
+  background:rgba(0,0,0, .5);
+}
+

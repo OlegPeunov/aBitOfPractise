@@ -1,0 +1,42 @@
+.cover{
+  max-width: 1184px;
+  height: 594px;
+  display: flex;
+  background-image: url('../../images/cover.jpg');
+  background-size: cover;
+  text-decoration: none; 
+  font-family: 'Inter', Arial, sans-serif;
+  background-position: right;
+  
+}
+
+@media (max-width: 1024px){
+	.cover{
+    height: 562px;
+    
+	}
+}
+
+
+@media (max-width:768px){
+	.cover{
+    height: 500px;
+    background-position: right;
+	}
+}
+
+@media (max-width: 550px){
+	.cover{
+    height: 272px;
+	}
+}
+
+
+
+
+
+@media (max-width: 320px){
+	.cover{
+		height: 216px;
+	}
+}

@@ -1,0 +1,41 @@
+.header {
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: 'Inter', Arial, sans-serif;
+  height:100%;
+}
+
+
+@media (max-width: 1024px){
+	.header{
+		max-width: 928px;
+	}
+}
+
+
+@media (max-width: 768px){
+	.header{
+		max-width: 720px;
+	}
+}
+
+
+@media (max-width: 375px){
+	.header{
+		max-width: 343px;
+	}
+}
+
+
+
+@media (max-width: 320px){
+	.header{
+		width: 288px;
+	}
+}
+
+
+
+

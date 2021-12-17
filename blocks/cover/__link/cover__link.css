@@ -1,0 +1,13 @@
+.cover__link{
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  background:rgba(0,0,0, .3);
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.cover__link:hover{
+  background:rgba(0,0,0, .5);
+}

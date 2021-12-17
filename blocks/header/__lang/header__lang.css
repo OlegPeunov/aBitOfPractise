@@ -1,0 +1,18 @@
+.header__lang{
+  text-decoration: initial;
+  color: #FFFFFF;
+  opacity: 1;
+  
+}
+  
+.header__lang:first-of-type{
+  margin-right: 18px;
+}
+
+.header__lang:hover{
+  opacity: 0.7; 
+  transition: 0.3s ease;
+  text-decoration: underline;
+}
+
+

@@ -1,0 +1,21 @@
+.comment{
+  max-width: calc((100% - 32px)/3);
+  margin: 0;
+  position: relative;
+}
+
+
+
+@media (max-width: 768px){
+	.comment{
+    max-width: 382px;
+    display: flex;
+    margin: 0 auto 48px;
+    flex-direction: column-reverse;
+    
+  }
+  
+  .comment:last-of-type{
+    margin: 0 auto 0;
+  }
+}

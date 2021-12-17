@@ -1,0 +1,53 @@
+.cover__subtitle{
+  max-width: 382px;
+  margin: 120px auto 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+}
+
+
+
+.cover__subtitle:hover{
+  opacity: 0.7;
+  transition: 0.3s ease;
+}
+
+
+
+@media (max-width: 1024px){
+	.cover__subtitle{
+    margin:75px auto 0;
+	}
+}
+
+
+
+@media (max-width: 768px){
+	.cover__subtitle{
+    margin:62px auto 0;
+	}
+}
+
+
+@media (max-width: 550px){
+	.cover__subtitle{
+    font-size: 14px;
+    line-height: 17px;
+    margin: 13px auto 0;
+    max-width: 300px;
+    
+	}
+}
+
+
+
+@media (max-width: 320px){
+	.cover__subtitle{
+    max-width: 270px;
+    margin: 5px auto 0;
+	}
+}

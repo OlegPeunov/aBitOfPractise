@@ -1,0 +1,27 @@
+.page__video{
+	margin: 105px auto 0;
+}
+
+
+
+@media (max-width: 375px){
+	.page__video{
+		margin: 60px auto 0;
+	}
+}
+
+
+
+@media (max-width: 375px){
+	.page__video{
+		margin: 60px auto 0;
+	}
+}
+
+ 
+
+@media (max-width: 320px){
+	.page__video{
+		margin: 35px auto 0;
+	}
+}

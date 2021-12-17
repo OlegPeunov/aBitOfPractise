@@ -1,0 +1,14 @@
+@media (max-width: 375px){
+	.footer__link-height{
+    margin-bottom: 14px;
+  }
+
+
+  .footer__link-height:last-of-type{
+    margin-bottom: 0;
+  }
+}
+
+
+
+

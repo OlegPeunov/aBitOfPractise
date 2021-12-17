@@ -1,0 +1,37 @@
+.video{
+  max-width: 1184px;
+  padding: 0 48px 0;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width:1024px){
+  .video{
+	max-width: 928px;
+	
+  }
+}
+
+
+
+@media (max-width: 768px){
+	.video{
+		max-width: 720px;
+		padding: 0 24px 0;
+	}
+}
+
+
+
+@media (max-width: 375px){
+	.video{
+		max-width: 343px;
+	}
+}
+
+
+
+@media (max-width: 320px){
+	.video{
+		width: 288px;
+	}
+}

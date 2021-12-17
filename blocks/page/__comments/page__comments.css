@@ -1,0 +1,19 @@
+.page__comments{
+	margin: 110px auto 0;
+}
+
+
+
+@media (max-width: 768px){
+	.page__comments{
+		margin: 108px auto 24px;
+	}
+}
+
+
+
+@media (max-width: 375px){
+	.page__comments{
+		margin: 64px auto 0;
+	}
+}

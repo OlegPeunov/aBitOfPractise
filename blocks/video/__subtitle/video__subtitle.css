@@ -1,0 +1,30 @@
+.video__subtitle{
+  margin: 0 0 30px 30px;
+  max-width: 285px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+.video__subtitle:hover{
+  opacity: 0.7;
+  transition: 0.3s ease;
+}
+
+
+
+@media (max-width: 768px){
+	.video__subtitle{
+		margin: 0 0 24px 30px;
+	}
+}
+
+
+@media (max-width: 320px){
+	.video__subtitle{
+		margin: 0 0 16px 16px;
+	}
+}

@@ -1,0 +1,16 @@
+.content-title_line-height{
+  line-height: 78px;
+}
+
+
+@media (max-width: 768px){
+	.content-title_line-height{
+		line-height: 46px;
+	}
+}
+
+@media (max-width: 320px){
+	.content-title_line-height{
+		line-height: 35px;
+	}
+}

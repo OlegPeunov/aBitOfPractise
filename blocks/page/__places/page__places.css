@@ -1,0 +1,28 @@
+.page__places{
+	margin: 105px auto 0;
+}
+
+
+
+@media (max-width: 1024px){
+	.page__places{
+		margin-top: 110px;
+		
+	}
+}
+
+
+
+@media (max-width: 768px){
+	.page__places{
+		margin-top: 105px;
+		
+	}
+}
+
+
+@media (max-width: 375px){
+	.page__places{
+		margin: 73px auto 0;
+	}
+}
